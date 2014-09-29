@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8740FB219D952A1003681C5 /* HYBRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8740FB119D952A1003681C5 /* HYBRootController.m */; };
+		A8740FB619D95537003681C5 /* HYBItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8740FB519D95537003681C5 /* HYBItemModel.m */; };
+		A8740FB819D956F8003681C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8740FB719D956F8003681C5 /* Images.xcassets */; };
+		A8740FBC19D95F06003681C5 /* HYBItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8740FBB19D95F06003681C5 /* HYBItemCell.m */; };
 		A8BB89FF19D950AC008CFF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB89FE19D950AC008CFF24 /* Foundation.framework */; };
 		A8BB8A0119D950AC008CFF24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB8A0019D950AC008CFF24 /* CoreGraphics.framework */; };
 		A8BB8A0319D950AC008CFF24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB8A0219D950AC008CFF24 /* UIKit.framework */; };
 		A8BB8A0919D950AC008CFF24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8BB8A0719D950AC008CFF24 /* InfoPlist.strings */; };
 		A8BB8A0B19D950AC008CFF24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BB8A0A19D950AC008CFF24 /* main.m */; };
 		A8BB8A0F19D950AC008CFF24 /* HYBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BB8A0E19D950AC008CFF24 /* HYBAppDelegate.m */; };
-		A8BB8A1119D950AC008CFF24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BB8A1019D950AC008CFF24 /* Images.xcassets */; };
 		A8BB8A1819D950AD008CFF24 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB8A1719D950AD008CFF24 /* XCTest.framework */; };
 		A8BB8A1919D950AD008CFF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB89FE19D950AC008CFF24 /* Foundation.framework */; };
 		A8BB8A1A19D950AD008CFF24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8BB8A0219D950AC008CFF24 /* UIKit.framework */; };
@@ -32,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8740FB019D952A1003681C5 /* HYBRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYBRootController.h; path = Controllers/HYBRootController.h; sourceTree = "<group>"; };
+		A8740FB119D952A1003681C5 /* HYBRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYBRootController.m; path = Controllers/HYBRootController.m; sourceTree = "<group>"; };
+		A8740FB419D95537003681C5 /* HYBItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYBItemModel.h; path = Models/HYBItemModel.h; sourceTree = "<group>"; };
+		A8740FB519D95537003681C5 /* HYBItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYBItemModel.m; path = Models/HYBItemModel.m; sourceTree = "<group>"; };
+		A8740FB719D956F8003681C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8740FBA19D95F06003681C5 /* HYBItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYBItemCell.h; path = Views/HYBItemCell.h; sourceTree = "<group>"; };
+		A8740FBB19D95F06003681C5 /* HYBItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYBItemCell.m; path = Views/HYBItemCell.m; sourceTree = "<group>"; };
 		A8BB89FB19D950AC008CFF24 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BB89FE19D950AC008CFF24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8BB8A0019D950AC008CFF24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,7 +52,6 @@
 		A8BB8A0C19D950AC008CFF24 /* CollectionViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A8BB8A0D19D950AC008CFF24 /* HYBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBAppDelegate.h; sourceTree = "<group>"; };
 		A8BB8A0E19D950AC008CFF24 /* HYBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBAppDelegate.m; sourceTree = "<group>"; };
-		A8BB8A1019D950AC008CFF24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8BB8A1619D950AD008CFF24 /* CollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BB8A1719D950AD008CFF24 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A8BB8A1F19D950AD008CFF24 /* CollectionViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewDemoTests-Info.plist"; sourceTree = "<group>"; };
@@ -74,6 +83,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8740FAC19D951F8003681C5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8BB8A0D19D950AC008CFF24 /* HYBAppDelegate.h */,
+				A8BB8A0E19D950AC008CFF24 /* HYBAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A8740FAD19D95204003681C5 /* DefaultFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A8740FB719D956F8003681C5 /* Images.xcassets */,
+				A8BB8A0619D950AC008CFF24 /* CollectionViewDemo-Info.plist */,
+				A8BB8A0719D950AC008CFF24 /* InfoPlist.strings */,
+				A8BB8A0A19D950AC008CFF24 /* main.m */,
+				A8BB8A0C19D950AC008CFF24 /* CollectionViewDemo-Prefix.pch */,
+			);
+			name = DefaultFiles;
+			sourceTree = "<group>";
+		};
+		A8740FAF19D95278003681C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8740FB019D952A1003681C5 /* HYBRootController.h */,
+				A8740FB119D952A1003681C5 /* HYBRootController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A8740FB319D95509003681C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8740FB419D95537003681C5 /* HYBItemModel.h */,
+				A8740FB519D95537003681C5 /* HYBItemModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A8740FB919D95EF0003681C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8740FBA19D95F06003681C5 /* HYBItemCell.h */,
+				A8740FBB19D95F06003681C5 /* HYBItemCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		A8BB89F219D950AC008CFF24 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +164,10 @@
 		A8BB8A0419D950AC008CFF24 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A8BB8A0D19D950AC008CFF24 /* HYBAppDelegate.h */,
-				A8BB8A0E19D950AC008CFF24 /* HYBAppDelegate.m */,
+				A8740FB919D95EF0003681C5 /* Views */,
+				A8740FB319D95509003681C5 /* Models */,
+				A8740FAF19D95278003681C5 /* Controllers */,
+				A8740FAC19D951F8003681C5 /* AppDelegate */,
 				A8BB8A0519D950AC008CFF24 /* Supporting Files */,
 			);
 			path = CollectionViewDemo;
@@ -117,11 +176,7 @@
 		A8BB8A0519D950AC008CFF24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8BB8A1019D950AC008CFF24 /* Images.xcassets */,
-				A8BB8A0619D950AC008CFF24 /* CollectionViewDemo-Info.plist */,
-				A8BB8A0719D950AC008CFF24 /* InfoPlist.strings */,
-				A8BB8A0A19D950AC008CFF24 /* main.m */,
-				A8BB8A0C19D950AC008CFF24 /* CollectionViewDemo-Prefix.pch */,
+				A8740FAD19D95204003681C5 /* DefaultFiles */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BB8A0919D950AC008CFF24 /* InfoPlist.strings in Resources */,
-				A8BB8A1119D950AC008CFF24 /* Images.xcassets in Resources */,
+				A8740FB819D956F8003681C5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8740FB619D95537003681C5 /* HYBItemModel.m in Sources */,
+				A8740FBC19D95F06003681C5 /* HYBItemCell.m in Sources */,
 				A8BB8A0F19D950AC008CFF24 /* HYBAppDelegate.m in Sources */,
+				A8740FB219D952A1003681C5 /* HYBRootController.m in Sources */,
 				A8BB8A0B19D950AC008CFF24 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +496,7 @@
 				A8BB8A2919D950AD008CFF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8BB8A2A19D950AD008CFF24 /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +505,7 @@
 				A8BB8A2C19D950AD008CFF24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
